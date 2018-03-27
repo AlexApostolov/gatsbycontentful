@@ -1,5 +1,5 @@
 ---
-title: 'Welcome to the new blog'
+title: 'Level Up Pro Gatsby to the new blog'
 date: '2018-03-24'
 ---
 
