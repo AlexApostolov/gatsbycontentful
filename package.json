@@ -7,6 +7,7 @@
     "gatsby": "^1.9.238",
     "gatsby-image": "^1.0.42",
     "gatsby-link": "^1.6.39",
+    "gatsby-plugin-netlify-cms": "^1.0.12",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-plugin-sharp": "^1.6.41",
     "gatsby-plugin-styled-components": "^2.0.9",
@@ -16,7 +17,9 @@
     "react-helmet": "^5.2.0",
     "styled-components": "^3.2.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
