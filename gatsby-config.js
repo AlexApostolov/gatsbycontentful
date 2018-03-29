@@ -5,6 +5,14 @@ module.exports = {
   },
   pathPrefix: '/gatsbypro',
   plugins: [
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'bugw656e8pni',
+        accessToken:
+          '2be6d3c353462965ae60e2d248987e371898307c10a2278156bc8f6d3a0ef0d2',
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
@@ -28,14 +36,8 @@ module.exports = {
         path: `${__dirname}/static/assets`,
       },
     },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        excerpt_separator: `<!-- end -->`,
-      },
-    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify-cms',
+    'gatsby-transformer-remark',
   ],
 }
